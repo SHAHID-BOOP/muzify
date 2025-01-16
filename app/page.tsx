@@ -2,8 +2,8 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Users, Radio, Headphones, ArrowRight } from 'lucide-react'
-import { AppBar } from "./components/AppBar"
-import { Redirect } from "./components/Redirect"
+import { AppBar } from "./components/AppBar"    
+import Redirect from "./components/Redirect"
 
 
 export default function MusicStreamingLanding() {
