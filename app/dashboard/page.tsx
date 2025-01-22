@@ -36,7 +36,7 @@ export default function SongVotingQueue() {
       thumbnail: "/placeholder.svg?height=90&width=120",
     },
   ])
-  const [currentVideo, setCurrentVideo] = useState("dQw4w9WgXcQ")
+  const [currentVideo, setCurrentVideo] = useState<Video | null>(null)
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
