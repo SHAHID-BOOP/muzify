@@ -7,7 +7,7 @@ const UpvoteSchema = z.object({
   streamId: z.string()
   
 })
-
+// this is downvote route
 export async function POST(req: NextRequest) {
   const session = await getServerSession();
   
