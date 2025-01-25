@@ -11,6 +11,7 @@ import { ShareButton } from "@/components/ui/share-button"
 
 import { Toaster } from "@/components/ui/toaster"
 // this is dashboard page 
+// error we are encountering is that we are not able to import the ShareButton component
 
 interface Video {
   id: string
