@@ -14,6 +14,7 @@ import { Toaster } from "@/components/ui/toaster"
 // error we are encountering is that we are not able to import the ShareButton component
 // page arror 
 // the error is videoqueue
+// the error is videoid
 
 interface Video {
   id: string
