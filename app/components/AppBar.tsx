@@ -6,7 +6,7 @@ import Link from "next/link"
 import { Input } from "@/components/ui/input"
 import { Music } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-
+// this is appbar component
 export function AppBar(){
   const session = useSession();
 
