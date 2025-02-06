@@ -4,7 +4,7 @@ import {prismaClient} from "@/app/lib/db";
 
 // @ts-ignore
 import youtubesearchapi from "youtube-search-api";
-
+// upvote route
 var YT_REGEX = /^(?:(?:https?:)?\/\/)?(?:www\.)?(?:m\.)?(?:youtu(?:be)?\.com\/(?:v\/|embed\/|watch(?:\/|\?v=))|youtu\.be\/)((?:\w|-){11})(?:\S+)?$/;
 
 
