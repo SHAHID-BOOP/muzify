@@ -7,6 +7,7 @@ import youtubesearchapi from "youtube-search-api";
 // upvote route
 var YT_REGEX = /^(?:(?:https?:)?\/\/)?(?:www\.)?(?:m\.)?(?:youtu(?:be)?\.com\/(?:v\/|embed\/|watch(?:\/|\?v=))|youtu\.be\/)((?:\w|-){11})(?:\S+)?$/;
 
+// not upvote but streams
 
 const CreateStreamSchema = z.object({
   creatorId: z.string(),
