@@ -4,7 +4,7 @@ import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react"
 
-
+// this is redirect component
 export default function Redirect(){
   const session = useSession();
   const router = useRouter();
