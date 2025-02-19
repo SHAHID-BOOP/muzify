@@ -3,6 +3,7 @@ import NextAuth from "next-auth"
 import { log } from "console";
 import { prismaClient } from "@/app/lib/db";
 
+// added nextauth
 const handler = NextAuth({
   providers:  [
     GoogleProvider({
