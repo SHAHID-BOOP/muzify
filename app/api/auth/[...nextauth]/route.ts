@@ -4,6 +4,7 @@ import { log } from "console";
 import { prismaClient } from "@/app/lib/db";
 
 // added nextauth
+// just random comment
 const handler = NextAuth({
   providers:  [
     GoogleProvider({
