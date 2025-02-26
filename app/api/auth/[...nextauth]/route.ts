@@ -27,6 +27,7 @@ const handler = NextAuth({
       } catch (e) {
 
       }
+      // try catch block
       
       return true;
     }
