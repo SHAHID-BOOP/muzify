@@ -39,3 +39,4 @@ export { handler as GET, handler as POST }
 // export default NextAuth({
 //   providers: [
 // nect auth
+// google provider and github provider 
