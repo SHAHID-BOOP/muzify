@@ -40,3 +40,4 @@ export { handler as GET, handler as POST }
 //   providers: [
 // nect auth
 // google provider and github provider 
+// clerk auth 
